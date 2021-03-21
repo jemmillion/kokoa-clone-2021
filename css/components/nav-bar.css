@@ -19,6 +19,15 @@
   color: inherit;
 }
 
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px) rotateY(360deg);
+  }
+}
+
 .nav__notification {
   position: absolute;
   left: 15px;
